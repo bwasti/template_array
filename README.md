@@ -1,5 +1,5 @@
 # template_array
-Array manipulation at compile time.
+Array manipulation at compile time in C++.
 
 # Usage
 
