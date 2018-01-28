@@ -26,6 +26,10 @@ int main() {
     Size<Array<1,2,3>>() == 3,
     "Size failed.");
 
+  static_assert(
+    std::is_same<MakeArray<12, 3>, Array<12,12,12>>(),
+    "MakeArray failed.");
+
   return 0;
 
 }
